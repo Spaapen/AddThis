@@ -1,0 +1,21 @@
+{
+	"name": "mrc/addthis",
+	"type": "phpbb-extension",
+	"description": "Adds two social share buttons direct after the topic desciption",
+	"version": "1.0.0",
+	"time": "2014-11-27",
+	"license": "GPL-2.0",
+	"authors": [{
+			"name": "MrC",
+			"role": "Developer"
+		}],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "AddThis",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*@dev"
+		}
+	}
+}
